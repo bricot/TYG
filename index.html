@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+   <head>
+			<title>Troll Your Game</title>
+			<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+	</head>
+	
+	<body>
+		<section id="score">
+			
+			<article id="home_team">
+				<p>ISEN</p><img width="100px" height="100px;">
+				<p id="home_team_score">score h</p>
+				
+				<div class="inputs">
+					<input id="home_team_plus_button" type="button" value="+" title="You can use a too."></input>	
+					<input id="home_team_minus_button" type="button" value="-" title="You can use z too."></input>		
+					
+					<input id="home_team_reset_button" type="button" value="Reset" title="You can use e too."></input>
+				</div>
+			</article>
+			
+			<article id="visiting_team">
+				<p>ENSAM</p>
+				<img width="100px" height="100px;">
+				<p id="visiting_team_score">score v</p>
+				<div class="inputs">
+					<input id="visiting_team_plus_button" type="button" value="+" title="You can use i too."></input>	
+					<input id="visiting_team_minus_button" type="button" value="-" title="You can use o too."></input>		
+					
+					<input id="visiting_team_reset_button" type="button" value="Reset" title="You can use p too."></input>
+				</div>
+			</article>
+		</section>
+		
+		<section id="chrono">
+			<p id="time">time</p>
+			<div class="inputs">
+				<input id="useChrono" type="button" value="Use Chrono" title="You can use space too."></input>	
+				<p id="period">Period</p>
+				<input id="resetChrono" type="button" value="Reset" title="You can use n too."></input>
+				
+			</div>
+		</section>
+		
+		<section id="sound">
+			<article class="inputs">
+				<input id="buzzer" type="button" value="buzzer (1)"></input>		
+				<input id="theme" type="button" value="theme (2)"></input>
+				<input id="drums" type="button" value="drums (3)"></input>
+				<input id="fail" type="button" value="fail (4)"></input>
+				<input id="accident" type="button" value="accident (5)"></input>
+				<input id="kenny" type="button" value="kenny (6)"></input>
+
+
+			</article>
+		</section>
+		
+		<section id="arrayScore">
+			<table border="1" align="center">
+			  <thead>
+				<tr>
+				  <th>  </th>
+				  <th>Q1</th>
+  				  <th>Q2</th>
+				  <th>Q3</th>
+  				  <th>Q4</th>
+				  <th>PR</th>
+				  <th>TOTAL</th>
+
+
+
+				</tr>
+			  </thead>
+			  <tfoot>
+				<tr>
+				  <th>écart</th>
+				  <th> - </th><th> - </th><th> - </th><th> - </th><th> - </th><th> - </th>
+				  
+
+				</tr>
+			  </tfoot>
+			  <tbody>
+				<tr>
+				  <th>ISEN</th>
+				  <th> - </th><th> - </th><th> - </th><th> - </th><th> - </th><th> - </th>
+
+				  
+				</tr>
+				<tr>
+				  <th>ENSAM</th>
+				  <th> - </th><th> - </th><th> - </th><th> - </th><th> - </th><th> - </th>
+
+
+				  </tr>
+			  </tbody>
+			</table>
+		</section>
+		<section id="timeline">
+				<input class="reduceButton" type="button" value=" - " title="To reduce this box."></input>
+
+			<article>
+
+				<p>Match action par action</p>
+				<ul>
+					<li><p class="actionH"></p><p class="time">0:30</p><p class="actionV">Pannier marqué par 13.</p></li>
+					<li><p class="actionH">Pannier marqué par 5.</p><p class="time">0:38</p><p class="actionV"></p></li>
+					<li><p class="actionH"></p><p class="time">1:00</p><p class="actionV">Pannier raté par 4.</p></li>
+					<li><p class="actionH">Rebond capté par 12.</p><p class="time">1:07</p><p class="actionV"></p></li>
+					<li><p class="actionH"></p><p class="time">1:10</p><p class="actionV">Balle intercepté par 5.</p></li>
+					<li><p class="actionH"></p><p class="time">1:50</p><p class="actionV"> Balle perdue par 10.</p></li>
+				</ul>
+			<article>
+		</section>
+
+
+		<script src="chrono.js" type="text/javascript"></script>
+		<script src="score.js" type="text/javascript"></script>
+		<script src="js/sound.js" type="text/javascript"></script>
+
+
+	</body>
+<html>
